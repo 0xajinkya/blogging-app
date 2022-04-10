@@ -1,0 +1,59 @@
+.login{
+    height: calc(100vh);
+    /* height: 1000px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+         rgba(255,255,255,0.5),
+         rgba(255,255,255,0.5)) , 
+          url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0b97e30a-4c44-46b4-989f-5de64cc04d2f/d7wywn4-d53dc489-6055-4cab-af4c-877409ed0329.png/v1/fill/w_1024,h_1448,q_75,strp/_render__kaneki_ken__by_kanekiken22-d7wywn4.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi8wYjk3ZTMwYS00YzQ0LTQ2YjQtOTg5Zi01ZGU2NGNjMDRkMmYvZDd3eXduNC1kNTNkYzQ4OS02MDU1LTRjYWItYWY0Yy04Nzc0MDllZDAzMjkucG5nIiwid2lkdGgiOiI8PTEwMjQiLCJoZWlnaHQiOiI8PTE0NDgifV1dfQ.x5iSETeYXLzX413JDwUKkkbZqcVJWee-qHs9cHowfxk");
+    background-size: cover;
+}
+
+.loginTitle{
+    font-size: 50px;
+}
+
+.loginForm{
+    margin-top: 20;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForm > label{
+    margin: 10px 0px;
+}
+
+.loginInput{
+    padding: 10px;
+    background-color: white;
+}
+
+.loginButton1{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.loginButton1:disabled{
+    cursor: not-allowed;
+    background-color: lightcoral;
+}
+
+.loginRegisterButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: teal;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
